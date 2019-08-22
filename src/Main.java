@@ -1,21 +1,48 @@
+import java.io.*;
+import java.util.Scanner;
+
+import static java.lang.Integer.parseUnsignedInt;
 import static java.lang.Integer.sum;
 
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-        int a = 5;
-        int b = 3;
+    public static void main(String[] args) throws IOException {
+        Account acc1 = new Account();
+        Scanner sin = new Scanner(System.in);
+        int uInput = 0;
 
-        System.out.println(sum(a,b));
+
+        do {
+            System.out.println("1) Create Username");
+            System.out.println("2) Create PW");
+            System.out.println("0) Logout");
+            uInput = sin.nextInt();
+            if (uInput == 1) {
+                acc1.uNameCreate();
+                
+            }
+            else if (uInput == 2) {
+                acc1.uPWCreate();
+            }
+            else if (uInput == 4)       {
+
+            }
+
+        if(acc1.getuName() != null && acc1.getuPW() != null)
+        {
+            System.out.println("Welcome back " + acc1.getuName());
+            break;
+        }
+        }
+
+        while(uInput != 0);
+                     System.out.println( "Goodbye");
+
+
+
+
 
     }
-    static int retSum(int x, int y)
-    {
-        int sum = x + y;
-        int num1 = x;
-        int num2 = y;
 
-        return sum;
-    }
+
 }
