@@ -1,12 +1,16 @@
 import java.util.Scanner;
 
 public class User {
-    Account acc = new Account();
     Scanner sin = new Scanner(System.in);
+    Account acc = new Account();
 
-            System.out.println("1) Create Username");
-            System.out.println("2) Create PW");
-            System.out.println("0) Logout");
+    public void uWith() {
+        System.out.println("How much would you like to withdraw: ");
+    }
+
+    public void uDepo() {
+        System.out.println("How much would you like to deposit: ");
+    }
 
 
 }

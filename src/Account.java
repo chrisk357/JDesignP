@@ -10,9 +10,7 @@ public class Account {
 
 
 
-
-
-    public void uPWCreate(){
+    public void uPWCreate() {
         String suPW;
         System.out.print("Create your PW:");
         suPW = sin.next();
@@ -21,7 +19,7 @@ public class Account {
     }
 
 
-    public void uNameCreate(){
+    public void uNameCreate() {
         String suName;
         System.out.print("Enter your user desired name:");
         suName = sin.next();
@@ -33,15 +31,18 @@ public class Account {
 
         return uName;
     }
-    public void setuName(String uName){
+
+    public void setuName(String uName) {
 
         this.uName = uName;
 
     }
-    public String getuPW(){
+
+    public String getuPW() {
         return uPW;
     }
-    public void setuPW(String uPW){
+
+    public void setuPW(String uPW) {
         this.uPW = uPW;
 
     }
