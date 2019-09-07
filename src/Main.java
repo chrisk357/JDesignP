@@ -39,7 +39,7 @@ public class Main {
                 break;
             }
         }
-
+// created from ubuntu laptop and intellij 
        while (uInput != 0);
         //   System.out.println( "Goodbye");
 
