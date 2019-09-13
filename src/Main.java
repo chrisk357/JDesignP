@@ -3,7 +3,8 @@ import java.util.Scanner;
 import javax.swing.border.Border;
 import javax.swing.JFrame;
 
-
+// from laptop no longer have
+// gave kara
 
 import static java.lang.Integer.parseUnsignedInt;
 import static java.lang.Integer.sum;
