@@ -12,7 +12,7 @@ import static java.lang.Integer.sum;
 public class Main {
 
 // simple bank login create account
-
+// one of two to delete
     public static void main(String[] args) throws IOException {
         Account acc1 = new Account();
         User user = new User();
